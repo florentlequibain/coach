@@ -114,26 +114,83 @@ header{
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ IMAGE FULLSCREEN ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.jumbotron{
+  height:300px ;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ IMAGE FULLSCREEN INDEX ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .imagefullscreen{
   background-image: url(../img/joggeuse.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-.imagefullscreen h1, .imagefullscreen p{
+.imagefullscreen h1{
+  color: lightgreygrey;
+}
+
+.imagefullscreen p{
   color: white;
 }
 
-.jumbotron{
-  height:300px ;
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ IMAGE FULLSCREEN CONTACT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.imagefullscreen2{
+  background-image: url(../img/backcontact.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
+
+.imagefullscreen2 h1{
+  color: white;
+}
+
+.imagefullscreen2 p{
+  color: white;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ IMAGE FULLSCREEN PRICES~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.imagefullscreen3{
+  background-image: url(../img/backtarifs.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.imagefullscreen3 h1{
+  color: white;
+}
+
+.imagefullscreen3 p{
+  color: white;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ IMAGE FULLSCREEN ABOUTME~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.imagefullscreen4{
+  background-image: url(../img/backaboutme.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.imagefullscreen4 h1{
+  color: white;
+}
+
+.imagefullscreen4 p{
+  color:grey;
+}
+
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ END IMAGE FULLSCREEN ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ CARDS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-span{
+.italic{
   font-style: italic;
+}
+
+.textimg{
+  color: white;
+  font-size: 2.5em;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ END CARDS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
