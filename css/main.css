@@ -178,7 +178,10 @@ header{
   color:grey;
 }
 
-
+article div iframe{
+  width: 100%;
+  height: auto;
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ END IMAGE FULLSCREEN ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
